@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Username" id="username" name="user">
+        </div>
+        
+        <div>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter Password" id="password" name="pass">
+        </div>
+        
+        <div>
+            <label for="age">Age</label>
+            <input type="number" placeholder="Enter Age" id="age">
+        </div>
+
+
+        <!-- Different ways of creating buttons  -->
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <br>
+        
+        <input type="button" value="Click me">
+        <input type="submit">
+
+    </form>
+    <hr>
+
+    <form action="https://www.youtube.com/results?"> 
+            <label for="search">YouTube</label>  
+            <input type="text" placeholder="Search in YouTube" name="search_query" id="search">
+            <button>Search</button>
+    </form>
+    
+</body>
+</html>

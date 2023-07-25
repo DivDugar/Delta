@@ -1,0 +1,14 @@
+div{
+    width: 400px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px auto;
+
+    /* Using Background Image Property */
+    background-image: url(Backgrond\ img.jpeg);
+    /* Using Backgrond Size Property to Re-size our background image */
+    background-size: cover;
+    
+    color: black;
+    text-align: center;
+}
