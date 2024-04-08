@@ -1,2 +1,2 @@
 # Delta
-This repo has all the codes of the tutorials
+This repo has code to all the lectures of the Delta Course - Apna College (by Shradha Khapra)
