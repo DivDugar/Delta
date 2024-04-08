@@ -1,0 +1,13 @@
+h1{
+    color: red;
+    background-color: pink;
+}
+
+@keyframes headingWidth {
+    from{
+        text-align: left;
+    }
+    to{
+        text-align: right;
+    }
+}
