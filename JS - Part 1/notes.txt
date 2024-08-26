@@ -1,0 +1,4 @@
+
+Variable - Name of a storage location, it's value can change.
+
+Data Types
