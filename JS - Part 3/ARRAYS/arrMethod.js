@@ -39,3 +39,4 @@ console.log(primary.reverse()); // reverse the array back to it's original form
 // slice(start, end) - similar to strings (ending index is exclusive)
 console.log(primary.slice(1, 4));
 console.log(primary.slice(2));
+console.log(primary.slice(-1));
