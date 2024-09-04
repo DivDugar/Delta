@@ -2,6 +2,7 @@
 
 let car = ["Toyota", "BMW", "MARUTI", "XUV"];
 let primary = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
+let secondary = ['black', 'white', 'pink'];
 
 // Push - Add to the end
 car.push("Hundai");
@@ -26,3 +27,10 @@ console.log(primary.indexOf('green'));
 // includes('string') - if found, returns true else false
 console.log(primary.includes('violet'));
 console.log(primary.includes('black'));
+
+// concat - merge to arrays (NOTE: THIS DOES NOT CHANGE THE ARRAY, IT CREATES A NEW ARRAY)
+let allColors = primary.concat(secondary);
+console.log(allColors);
+
+// reverse - reverse and array
+console.log(primary.reverse());
