@@ -1,0 +1,5 @@
+String Methods - strings are immutable in JS (we cannot change them by applying any functions to it)
+---------------
+
+Methods - "Actions" that can be performed on objects.
+Format  - stringVariableName.method()
