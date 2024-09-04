@@ -32,5 +32,10 @@ console.log(primary.includes('black'));
 let allColors = primary.concat(secondary);
 console.log(allColors);
 
-// reverse - reverse and array
+// reverse - reverse and array (NOTE: THIS CHANGES THE ORIGINAL ARRAY)
 console.log(primary.reverse());
+console.log(primary.reverse()); // reverse the array back to it's original form
+
+// slice(start, end) - similar to strings
+console.log(primary.slice(1, 4));
+console.log(primary.slice(2));
