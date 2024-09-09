@@ -3,6 +3,7 @@
 let car = ["Toyota", "BMW", "MARUTI", "XUV"];
 let primary = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
 let secondary = ['black', 'white', 'pink'];
+let colors = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
 
 // Push - Add to the end
 car.push("Hundai");
@@ -40,3 +41,15 @@ console.log(primary.reverse()); // reverse the array back to it's original form
 console.log(primary.slice(1, 4));
 console.log(primary.slice(2));
 console.log(primary.slice(-1));
+
+// splice - removes/replaces/add elements in place (It changes the original array unlike slice)
+// splice(start, deleteCount, item0...itenN)
+
+console.log(colors.splice(4));
+console.log(colors);
+
+console.log(colors.splice(0,1));
+console.log(colors);
+
+colors.splice(0,1, "black", "grey");
+console.log(colors);
