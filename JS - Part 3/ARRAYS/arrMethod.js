@@ -4,6 +4,7 @@ let car = ["Toyota", "BMW", "MARUTI", "XUV"];
 let primary = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
 let secondary = ['black', 'white', 'pink'];
 let colors = ['violet', 'indigo', 'blue', 'green', 'yellow', 'orange', 'red'];
+let squares = [9, 4, 49, 64, 25, 36];
 
 // Push - Add to the end
 car.push("Hundai");
@@ -53,3 +54,8 @@ console.log(colors);
 
 colors.splice(0,1, "black", "grey");
 console.log(colors);
+
+// sort: sorts an array
+
+console.log(colors.sort());
+console.log(squares.sort()); // This does not works with numbers, since it first converts them into string and hence the result is not as expected.
