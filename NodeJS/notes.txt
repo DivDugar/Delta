@@ -1,0 +1,10 @@
+Node REPL - type 'node' in the terminal
+
+R - Read
+E - Evaluate
+P - Print
+L - Loop
+
+Node Files
+----------
+node script.js
