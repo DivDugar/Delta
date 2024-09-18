@@ -52,7 +52,7 @@ console.log(colors);
 console.log(colors.splice(0,1));
 console.log(colors);
 
-colors.splice(0,1, "black", "grey");
+colors.splice(0, 1, "black", "grey");
 console.log(colors);
 
 // sort: sorts an array
