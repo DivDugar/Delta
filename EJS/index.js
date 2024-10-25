@@ -4,8 +4,12 @@ const app = express();
 
 const port = 8080;
 
+// This is necessary in order for the server to know the location of the views directory - if the server is not started from the EJS directory, without specifying it's path - we will encounter an error.
 app.set("views", path.join(__dirname, "/views"));
+//
 app.set("view engine", "ejs");
+// Serving Static Files (Including CSS and JS Pages)
+app.use(express.static(path.join(__dirname, "/public")));
 
 app.get("/", (req, res) =>{
     res.render("home");
@@ -17,9 +21,19 @@ app.get("/rolldice", (req, res) =>{
 })
 
 app.get("/ig/:username", (req, res) => {
-    const followers = ["adam", "bob", "steve"];
+    // const followers = ["adam", "bob", "steve"];
+    // res.render("instagram", {username, users: followers});
+    
+    const instaData = require("./data/data.json");
     let username = req.params.username;
-    res.render("instagram", {username, users: followers});
+
+    const data = instaData[username];
+
+    if(data){
+        res.render("instagram", {data});
+    }else{
+        res.render("error")
+    }
 })
 
 app.listen(port, ()=>{
