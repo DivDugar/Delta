@@ -3,7 +3,7 @@ Array - Data Structure (Structures/Ways used to store data)
 
 Linear collection of things. eg. Followers/Following list in Instagram.
 Array is of type "object" in JS.
-Arrays of Mutable unlike strings
+Arrays are Mutable unlike strings
 
 Array Methods
 -------------
