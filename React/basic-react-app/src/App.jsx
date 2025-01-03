@@ -2,18 +2,11 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
-import Title from "./Title.jsx"
-
-function Description(){
-  return <h3>Learning React</h3>
-}
+import ProductTab from './ProductTab';
 
 function App() {
   return (
-  <div>
-    <Title/>
-    <Description/>
-  </div>
+    <ProductTab/>
   );
 }
 
